@@ -11,9 +11,11 @@
         <!-- for setting navbar -->
         <!-- Image and text -->
 <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      Movie Site
+    <a class="navbar-brand" href="{% url 'movieapp:ms' %}">
+      Movie Store
     </a>
+    <a class="navbar-brand" href="{% url 'movieapp:addmovie' %}">Add Movie</a>
+
   </nav>
   {% block body %}
   {% endblock %}
