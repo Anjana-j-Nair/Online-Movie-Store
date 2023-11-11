@@ -1,3 +1,9 @@
 body{
     background-color: rgba(251, 207, 9, 0.861);
 }
+..para{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(253, 12, 12);
+    text-align: center;
+}
